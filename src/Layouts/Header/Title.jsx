@@ -1,11 +1,13 @@
-import { Link, Text } from '@chakra-ui/react'
+import { Link, Text, Heading } from '@chakra-ui/react'
 
 export function Title () {
   return (
-    <Link href='\'>
-      <Text fontFamily='M PLUS rounded 1c, sans-serif' fontWeight='bold'>
-        Rafa Ginard
-      </Text>
-    </Link>
+    <Heading as='h1' size='md' letterSpacing='tighter'>
+      <Link href='\'>
+        <Text fontFamily='M PLUS rounded 1c, sans-serif' fontWeight='bold'>
+          Rafa Ginard
+        </Text>
+      </Link>
+    </Heading>
   )
 }
