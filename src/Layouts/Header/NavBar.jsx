@@ -2,7 +2,7 @@ import { Stack, Link, Image } from '@chakra-ui/react'
 
 export function NavBar () {
   return (
-    <Stack direction='row' alignItems='right' width='auto' as='Nav' justifyContent='space-between' >
+    <Stack direction='row' alignItems='right' as='nav' justifyContent='space-between' >
       <Link href='\works' p={2}>Works</Link>
       <Link href='\posts' p={2}>Posts</Link>
       <Link href='\github' p={2} display='flex'>

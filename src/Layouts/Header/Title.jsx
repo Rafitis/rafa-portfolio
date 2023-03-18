@@ -2,9 +2,9 @@ import { Link, Text, Heading } from '@chakra-ui/react'
 
 export function Title () {
   return (
-    <Heading as='h2' size='md' letterSpacing='tighter' mt={2}>
+    <Heading as='h2' size='md' letterSpacing='tighter' mt={2} mr={40}>
       <Link href='\'>
-        <Text fontFamily='M PLUS rounded 1c, sans-serif' fontWeight='bold'>
+        <Text fontWeight='bold'>
           Rafa Ginard
         </Text>
       </Link>
